@@ -1,0 +1,27 @@
+.logotext {
+    font-family: 'Kalam';
+    font-size: 100px;
+    text-shadow: 3px 3px 1px #000;
+}
+#footer{
+    padding-bottom:0;
+}
+#coopy{
+    background-color: #111;
+    margin-top:45px;
+}
+
+#footer p.social a.twitter {
+    background-color: #4099ff;
+}
+
+#hideall{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:url("../img/prel.gif") #fff no-repeat center;
+    z-index: 1300;
+
+}
