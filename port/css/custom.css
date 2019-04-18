@@ -1,6 +1,6 @@
 .logotext {
-    font-family: 'Kalam';
-    font-size: 100px;
+    /*font-family: 'Kalam';*/
+    font-size: 20rem;
     text-shadow: 3px 3px 1px #000;
 }
 #footer{
@@ -15,6 +15,11 @@
     background-color: #4099ff;
 }
 
+
+#footer p.social a.lin {
+    background-color: #0077B5;
+}
+
 #hideall{
     position: fixed;
     top: 0;
@@ -24,4 +29,84 @@
     background:url("../img/prel.gif") #fff no-repeat center;
     z-index: 1300;
 
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?5bakmm');
+    src:  url('../fonts/icomoon.eot?5bakmm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5bakmm') format('truetype'),
+    url('../fonts/icomoon.woff?5bakmm') format('woff'),
+    url('../fonts/icomoon.svg?5bakmm#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-b .path1:before {
+    content: "\e900";
+    color: rgb(1, 0, 2);
+}
+.icon-b .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+.icon-c:before {
+    content: "\e902";
+}
+.icon-p .path1:before {
+    content: "\e903";
+    color: rgb(1, 0, 2);
+}
+.icon-p .path2:before {
+    content: "\e904";
+    margin-left: -1em;
+    color: rgb(0, 136, 255);
+}
+.bld{
+    font-weight: bold;
+}
+.progress .progress-bar.active {
+    -webkit-animation: reverse progress-bar-stripes 2s linear infinite;
+    -moz-animation: reverse progress-bar-stripes 2s linear infinite;
+    -ms-animation: reverse progress-bar-stripes 2s linear infinite;
+    -o-animation: reverse progress-bar-stripes 2s linear infinite;
+    animation: reverse progress-bar-stripes 2s linear infinite;
+}
+.mt20{
+    margin-top: 20px;
+}
+.grecaptcha-badge{
+    display: none;
+}
+.navbar-collapse.collapse{
+    visibility: visible !important;
+}
+body{
+    position: relative;
+}
+.mb{
+    margin-bottom: 5rem;
+}
+.logotext{
+    margin-bottom: 0;
+    margin-top: auto;
+    height: 25rem;
+}
+.parallax-image1{
+    background-size: cover;
 }
